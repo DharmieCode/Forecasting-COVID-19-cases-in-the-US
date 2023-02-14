@@ -11,7 +11,8 @@ The World Health Organization declared COVID-19 a pandemic on March 11th, 2020. 
 
 
 ### Forecasting
-<img width="416" alt="Forecast plot_4-02-14 at 8 51 44 AM" src="https://user-images.githubusercontent.com/65930304/218758705-1bfdd7a2-53a0-452e-a0cb-19e6e09e2b95.png">
+
+<img width="416" alt="Forecast plot_4_2023-02-14 at 8 59 34 AM" src="https://user-images.githubusercontent.com/65930304/218759957-1758c7c5-281b-46e7-b63c-b98cbc71a00b.png">
 
 
 
