@@ -180,3 +180,14 @@ lines(holt_forecast$mean, col=3, lty=1)
 lines(test.ts, col=7, lty=1, lwd=3)
 legend("topleft", lty = 1, col=c(1,2,6,3,7),
        legend=c("linear Method", "arima", "arima1", "holt", "Test"))
+
+
+##########################################
+#Autocorrelation : Box.test - Ljng-Box
+###########################################
+# H0 : No autocorrelation in the forecast errors
+# H1 : there is an autocorrelation in the forecast errors
+Box.test(forecast.fit$residuals, type = "Ljung-Box")
+Box.test(holt_forecast$residuals, type = "Ljung-Box")
+Box.test(arima.covid.forecasts$residuals, type = "Ljung-Box")
+Box.test(arima.covid.forecasts1$residuals, type = "Ljung-Box")
